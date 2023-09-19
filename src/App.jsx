@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <h1>worldClock</h1>
+      <h1>worldClock Ortopedejszyn</h1>
+      <h1>worldClock Defibrylantejszyn</h1>
+
     </>
   )
 }
