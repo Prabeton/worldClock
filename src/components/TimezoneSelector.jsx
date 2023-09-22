@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './TimezoneSelector.css';
-const TimezoneSelector = ( addTimezone ) => {
+
+// eslint-disable-next-line
+const TimezoneSelector = ( { addTimezone } ) => {
 	
 	const [selectedTimezone, setSelectedTimezone] = useState('Europe/Athens');
 	

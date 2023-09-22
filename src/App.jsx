@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import TimezoneSelector from './components/TimezoneSelector';
-// import ClockList from './components/ClockList';
+import ClockList from './components/ClockList';
 
 function App() {
-  const [timezones, setTimezones] = useState('Europe/Athens');
+  const [timezones, setTimezones] = useState(['Europe/Paris']);
   
   const addTimezone = (timezone) => {
     setTimezones([...timezones, timezone]);
@@ -18,7 +18,7 @@ function App() {
       <div className="app">
         <h2>World Clocks</h2>
         <TimezoneSelector addTimezone={addTimezone} />
-        {/* <ClockList timezones={timezones} removeTimezone={removeTimezone} /> */}
+        <ClockList timezones={timezones} removeTimezone={removeTimezone} />
       </div>
   );
 }

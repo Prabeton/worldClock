@@ -1,5 +1,14 @@
 # worldClock by PraBeton
 
+Niestety nie rozwiązałem jeszcze problemów z ESlintem i dlatego przy propsach użyłem komendy:
+// eslint-disable-next-line
+oraz wyświetla ostrzeżenie przy mapowaniu tablicy
+`timezones.map ((timezone) =>` ale działa :) 
+
+Poza tym przy kilkukrotnym wyborze po kolei tej samej strefy czasowej, przy kasowaniu kasują się wszystkie. Ale tak póki co może być ;) 
+
+------------------------------------***---------------------------------------------
+
 Światowy Zegar z Możliwością Dodawania Stref Czasowych
 Termin - do poniedziałku 25 września!
 
